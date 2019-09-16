@@ -1,0 +1,593 @@
+header{
+    width: 100%;
+    background: #BDBDBD;
+    z-index: 1;
+    margin: 0px;
+    padding: 0px;
+}
+
+.contenedor{
+    width: 100%;
+}
+
+.menu{
+    width: 100%;
+    margin: auto;
+    padding: .3em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.menu .contenedor-menu .logo .logo-name img {
+    width: 340px;
+    margin-right: 115px;
+    
+}
+
+.menu .contenedor-menu .logo .btn-menu{
+    display: none;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.menu .menu-link ul{
+    list-style: none;
+    height: 80px;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.menu .menu-link ul li{
+    display: inline-block;
+    border-left: 2px solid #A4A4A4;
+    text-align: center;
+    width: 195px;
+    height: 100%;
+    top: 20px;
+    
+}
+
+p{
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu .menu-link ul li a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    color: #08088A;
+    padding-top: 30px;
+    
+    font-size:  18px;
+}
+
+.menu .menu-link ul li a:hover {
+   
+    transition: 0.2s;
+}
+
+.botonMenu{
+    font-family: titallium;
+    
+}
+
+
+
+
+
+.imagenes1 img{
+    width: 100%;
+    padding: 0px;
+    
+}
+
+.imagenes1{
+  margin-left: 5%;
+    
+}
+
+.imagenes2{
+    display: block;
+    margin-top: 10px;
+    margin-left: 25px;
+    width: 100%;        
+}
+.imagenenPackMobile{
+    display: none;
+}
+
+.pack{
+    width: 100%;        
+}
+.seccion2{
+    font-size: 25px;
+    padding-top: 50px;
+    padding-left:90px;
+    padding-right:150px;
+    float: left;
+}
+.imagen3{
+    width: 20%;
+    float: left;
+}
+.imagen3 img{
+    width: 100%;
+    padding: 5%;
+}
+.seccion3{
+    font-size: 10.5px;
+    padding-left:60px;
+    padding-right:60px;
+    
+}
+
+.seccion3 p {
+    text-align: justify;
+}
+
+.imagen4{
+    padding-left:90px;
+    width: 25%;
+    margin: auto;
+}
+
+
+.imagen4 img{
+    width: 100%;
+    
+}
+
+.tituloForm {
+    text-align: center;
+}
+.formulario1 .boton {
+    width: 50%;
+    font-size: 30px;
+    font-family: titallium;
+    display: block;
+    margin: 0px auto;
+    background: rgba(212, 0, 23);
+    border: none;
+    cursor: pointer;
+}
+
+
+.check{
+    text-align: center;
+   
+}
+
+.formulario1{
+    display: block;
+    background: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    padding: 5%;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.formulario2{
+    display: none;
+    background: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    padding: 5%;
+    
+    margin-left: 50px;
+}
+
+.formulario1 h3 {
+    width: 80%;
+    margin: 0px auto;
+    font-family: titallium;
+    background: rgba(58, 83, 127);
+    color:white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.muevete1{
+    display: block;
+    background: #1f1e21;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+.muevete1 p{
+    font-family: ubuntuItalic;
+    font-size: 30px;
+    text-align: center;
+    color:#00b4e5;
+}
+
+.muevete1 p a{
+    color: white;
+    text-decoration: none;
+}
+
+.muevete2{
+    display: none;
+}
+
+.cuerpo2{
+    background: rgba(246,246,246);
+    overflow: hidden;
+}
+
+.cuerpo2 h3 {
+    color: rgba(194, 59, 91);
+    font-family: openSans;
+    font-size: 30px;
+}
+.cuerpo2 .seccion2 .linea1{
+    font-family: ubuntuBold;
+}
+.cuerpo2 .seccion2 p{
+    color: rgba(58, 83, 127);
+    font-family: ubuntuRegular;
+    font-size: 30px;
+    
+}
+
+.cuerpo3{
+    background: rgba(236, 236, 236);
+}
+
+.nombreMensaje{
+    margin-top: 2px;
+    margin-left: -5px;
+    width: 60%;
+    padding: 7px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.registroExitoso{
+    display: none;
+    left: -100%;
+    padding-bottom: 10px;
+    background: rgba(255, 255, 255, 0.8);
+    width: 80%;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 100px; 
+}
+
+.registroExitoso h5 a{
+    color: blue;
+}
+
+.nombreRegistro{
+    width: 95%;
+    margin: 0px auto;
+    color: white;
+    background: #29abe2;
+
+}
+
+.pdfBody{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.modal-pantalla-entera{
+    width: 94%;
+    margin: 1em auto;     
+}
+
+
+.imagenCarrusel{
+    background: url(../img/premio1.jpg);
+    background-color: rgba(146, 146, 146, .8);
+    background-size: 100%!important;
+}
+
+.zeccloCarrusel{
+    text-align: center;
+    margin: 0px auto;
+    margin-top: auto;
+    position: absolute;
+    margin-left: 25%;
+    width: 50%;
+    background: #29abe2;
+    color: white;
+    margin-bottom: inherit;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-top-left-radius: 20px; 
+    border-top-right-radius: 20px;
+}
+
+.imagenCarrusel h5 a {
+    text-decoration: none;
+    color: white;
+    font-family: ubuntuItalic;
+}
+
+
+.efecto {
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 100%
+    }
+  
+    to {
+      margin-left: 10%;
+      width: 80%;
+    }
+  }
+
+  @media screen and (max-width :3500px){
+    .banner{
+        background: url(../img/movilidadFondo.jpg);
+        background-color: rgba(146, 146, 146, .8);
+       
+        background-size: 100%!important;
+     
+    }
+}
+@media screen and (min-width :3500px){
+    .banner{
+        background: url(../img/movilidadFondo.jpg);
+        background-color: rgba(146, 146, 146, .8);
+        background-size: 100%!important;
+       
+    }
+}
+
+@media screen and (min-width :500px){
+    .banner{
+        background: url(../img/movilidadFondo.jpg);
+ 
+        width: 100%;
+    
+  
+    }
+}
+
+
+
+@media screen and (max-width :500px){
+
+    .banner{
+        background: url(../img/movilidadFondoMobile.jpg);
+        background-color: rgba(146, 146, 146, .8);
+        background-repeat: no-repeat!important; 
+        background-size: 100%!important;
+       /* height: 1530px;*/
+        margin: 0px auto;
+        padding:0px;
+    }
+    .menu{
+        width: 90%;
+    }
+
+    .menu .contenedor-menu .logo .btn-menu {
+        display: block;
+    }
+
+    .menu .contenedor-menu .logo .logo-name img {
+        
+        margin-right: 0px;
+        width: 85%;
+        display: none;
+        margin: 0px auto;
+        
+        
+    }
+
+    .imagenes1 {
+        display: none;
+    }
+
+    .imagenes1 img{
+        width: 50%;
+        float: left;
+        
+    }
+
+   
+
+    .imagenes1 .juegatela{
+        margin-top: 20px;
+    }
+
+   
+    .formulario1{
+        display: block;
+        background: rgba(255, 255, 255, 1);
+        width: 100%;
+        padding: 5%;
+        margin-left: 0px;
+        margin-top: 10px;
+        padding-bottom: 70px;
+       
+    }
+
+    .formulario1 h3 {
+        width: 100%;
+        margin: 0px auto;
+        font-family: titallium;
+        background: rgba(58, 83, 127);
+        color:white;
+        padding-top: 0px;
+        padding-bottom: 5px;
+    }
+
+    .formulario1 .boton {
+        width: 50%;
+        font-size: 20px;
+        font-family: titallium;
+        display: block;
+        margin: 0px auto;
+        background: rgba(212, 0, 23);
+        border: none;
+        cursor: pointer;
+    }
+    
+
+
+    .imagenes2 {
+      display: none;
+        
+    }
+
+    .imagenenPackMobile{
+        display: block;
+        margin-top: 500px;
+    }
+    .pack {
+        width: 100%;
+    }
+
+    .muevete1{
+        display: none;
+    }
+
+    .muevete2{
+        display: block;
+        background: #1f1e21;
+        padding-bottom: 1%;
+        padding-top: 1%;
+    }
+    
+    .muevete2 p{
+        font-family: ubuntuItalic;
+        font-size: 20px;
+        text-align: center;
+        color:#00b4e5;
+    }
+    
+    .muevete2 p a{
+        color: white;
+        text-decoration: none;
+    }
+    
+
+    .formulario .boton {
+        width: 50%;
+        font-size: 15px;
+        font-family: titallium;
+        display: block;
+        margin: 0px auto;
+        background: rgba(212, 0, 23);
+        border: none;
+    }
+
+    .formulario .tituloForm{
+        font-size: 18px;
+    }
+
+    .registroExitoso{
+        display: none;
+        padding-bottom: 10px;
+        background: rgba(255, 255, 255, 0.8);
+        width: 80%;
+        margin: 0px auto;
+        text-align: center;
+        margin-top: 160px;
+       
+    }
+    .registroExitoso h1{
+        font-size: 25px;
+    }
+
+    .registroExitoso h5{
+        font-size: 18px;
+    }
+
+    .nombreMensaje{
+        margin-top: 2px;
+        margin-left: -5px;
+        width: 80%;
+        padding: 7px;
+        border: 1px solid gray;
+        border-radius: 5px;
+    }
+
+    .cuerpo3 .imagen4{
+        width: 85%;
+        padding: 0px;
+        margin: 0px auto;
+        overflow: hidden;
+    }
+
+    .cuerpo3 .seccion3  {
+        width: 90%;
+        padding: 0px;
+        margin: 0px auto;
+        font-size: 9px;
+        
+    }
+  
+  
+    .menu .menu-link{
+        position: absolute;
+        background: rgba(0, 0, 0, .9);
+        height: 100vh;
+        width: 100%;
+        top: 63px;
+        left: -100%;
+        z-index: 1000;
+        transition: 0.3s;  
+    }
+    
+    .menu .contenedor-menu{
+        width: 100%;
+    }
+    
+    .menu .contenedor-menu .logo{
+        display: flex;
+        align-items: center;
+        justify-content: space-between
+    }
+    
+    .menu .menu-link ul{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+      
+    }
+    .menu .menu-link ul li{
+        display: block;
+        width: 100%;
+        text-align: center;
+        height: 60px;;     
+    }
+    
+    .menu .menu-link ul li a{
+        display: block;
+        height: 52px;
+        border-bottom: 2px solid #fff;
+        padding: 15px;
+        text-align: center;
+        margin: 0;
+        color: white;
+    }
+
+    .basesp{
+        font-size: 10px;
+    }
+
+    .digitoFormulario{
+        width: 30%;
+        float: left;
+    }
+    .numeroFormulario{
+        width: 70%;
+        
+    }
+}
+
+
+

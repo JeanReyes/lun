@@ -1,0 +1,22 @@
+
+@font-face{
+    font-family: titallium;
+    src:url(TitilliumText25L.otf);
+}
+@font-face{
+    font-family: openSans;
+    src:url(OpenSans-ExtraBold.ttf);
+}
+@font-face{
+    font-family: ubuntuBold;
+    src:url(Ubuntu-Bold.ttf);
+}
+@font-face{
+    font-family: ubuntuRegular;
+    src:url(Ubuntu-regular.ttf);
+}
+@font-face{
+    font-family: ubuntuItalic;
+    src:url(Ubuntu-BoldItalic.ttf);
+}
+
